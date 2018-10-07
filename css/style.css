@@ -1,0 +1,192 @@
+/* Глобальные */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    background-color: #303D46;
+    width: 900px;
+    position: relative;
+    margin: 0 auto;
+    color: #333333;
+}
+
+/* Шапка */
+   
+/* Блок шапки */
+.main-header {
+    background-color: #fff;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    max-width: 1024px;
+    width: 100%;
+    position: relative;
+}
+
+.header-about {
+    padding: 20px 10px 0px 10px;
+}
+
+.main-header article  {
+    margin: 10px 10px 15px 10px;
+}
+
+/* Блок слева с описанием */
+.header-info {
+    float: left;
+    width: 35%;
+}
+
+abbr {
+    cursor: pointer;
+    text-decoration: none;
+    border-bottom:2px dashed #479099;
+}
+
+/* Блок по центру с картинкой */
+.header-logo {
+    display: inline-block; 
+    width: 27%; 
+    text-align: center;
+}
+
+.header-logo img {
+    border: 4.5px #384458 solid;
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    max-width: 150px;
+    max-height: 150px;
+}
+
+/* Блок справа, с контактами */
+.header-social {
+    float: right;
+    width: 35%;
+    text-align: right;
+}
+
+.header-social li {
+    list-style: none;
+    margin: 0 0 13px 0px;
+}
+
+.social-git {
+    background: url(img/github.png) no-repeat;
+}
+
+/* Шрифты */
+h1 {
+    color: #479099;
+    font-size: 30px;
+    min-height: 30px;
+    line-height: 36px;
+}
+
+h2 {
+    color: #479099;
+    font-weight: bold;
+    font-size: 22px;
+    min-height: 22px;
+    line-height: 22px;
+    margin-left: 10px;
+}
+
+h3, .option-place, .header-text-option {
+    font-size: 18px;
+    min-height: 18px;
+    line-height: 19px;
+}
+
+h2, h3 {
+    text-transform: uppercase;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+.header-about, p, li {
+    font-size: 13px;
+    min-height: 13px;
+    line-height: 16px;
+}
+
+/* Тело сайта */
+.container {
+    max-width: 1024px; 
+    background-color: #fff;
+    width: 100%;
+    position: absolute;
+}
+
+.container-left {
+    float: left;
+    background-color: #fff;
+    width: 45%;
+}
+
+.container-right {
+    float: right;
+    background-color: #fff;
+    width: 45%;
+}
+
+.container article  {
+    margin: 10px 10px 40px 10px;
+}
+
+section  {
+    margin: 10px 10px 20px 10px;
+}
+
+.achievements dl, .languages dl, ul {
+    margin: 10px 10px 15px 10px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+/* Опыт работы */
+.option-period, .option-list-header, dd {
+    font-size: 12px;
+    line-height: 13px;
+    color: #384458;
+    font-style: italic;
+}
+
+.dd {
+    font-size: 15px;
+    line-height: 16.5px;
+}
+
+/* Образование */
+.experience li, .education li {
+    margin-left: 6px;
+}
+
+/* Навыки работы */
+.skills-list {
+    margin-left: 26px;
+}
+
+.skill-item {
+    margin-bottom: 20px;
+}
+
+/* Интересы */
+.interests-list li {
+    list-style: none;
+    display: inline-block;
+    border-radius: 4.5px;
+    padding: 4.5px 10.5px;
+    border: 1.5px solid #b2b2b2;
+    margin-right: 2px;
+    margin-bottom: 6px;
+}
