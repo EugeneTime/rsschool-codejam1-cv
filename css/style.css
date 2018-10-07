@@ -156,14 +156,6 @@ p {
 }
 
 /* Опыт работы */
-.experience {
-
-}
-
-.option {
-
-}
-
 .option-period, .option-list-header, dd {
     font-size: 12px;
     line-height: 13.5px;
@@ -182,10 +174,6 @@ p {
 }
 
 /* Навыки работы */
-.skills {
-
-}
-
 .skills-list {
     margin-left: 26px;
 }
@@ -194,25 +182,7 @@ p {
     margin-bottom: 20px;
 }
 
-/* Проекты */
-.projects {
-
-}
-
-/* Достижения */
-.achievements {
-
-}
-
-/* Языки */
-.languages {
-
-}
-
 /* Интересы */
-.interests {
-
-}
 
 .interests-list li {
     list-style: none;
