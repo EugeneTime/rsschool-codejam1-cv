@@ -21,24 +21,25 @@ body {
 /* Блок шапки */
 .main-header {
     background-color: #fff;
-    padding-bottom: 21px;
     border-bottom-width: 3px;
     border-bottom-style: solid;
-    max-width: 100%;
+    max-width: 1024px;
     width: 100%;
     position: relative;
-    height: auto;
 }
 
 .header-about {
     padding: 20px 10px 0px 10px;
-    width: 100%;
+}
+
+.main-header article  {
+    margin: 10px 10px 15px 10px;
 }
 
 /* Блок слева с описанием */
 .header-info {
     float: left;
-    width: 33%;
+    width: 35%;
 }
 
 abbr {
@@ -50,7 +51,7 @@ abbr {
 /* Блок по центру с картинкой */
 .header-logo {
     display: inline-block; 
-    width: 33%; 
+    width: 27%; 
     text-align: center;
 }
 
@@ -66,12 +67,17 @@ abbr {
 /* Блок справа, с контактами */
 .header-social {
     float: right;
-    width: 25%;
+    width: 35%;
+    text-align: right;
 }
 
 .header-social li {
     list-style: none;
-    margin-bottom: 20px;
+    margin: 0 0 13px 0px;
+}
+
+.social-git {
+    background: url(img/github.png) no-repeat;
 }
 
 /* Шрифты */
@@ -133,7 +139,7 @@ h3 {
     width: 45%;
 }
 
-article  {
+.container article  {
     margin: 10px 10px 40px 10px;
 }
 
@@ -171,8 +177,8 @@ p {
 }
 
 /* Образование */
-.education {
-
+.experience li, .education li {
+    margin-left: 6px;
 }
 
 /* Навыки работы */
@@ -181,7 +187,7 @@ p {
 }
 
 .skills-list {
-    list-style: none;
+    margin-left: 26px;
 }
 
 .skill-item {
