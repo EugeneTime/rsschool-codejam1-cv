@@ -81,7 +81,6 @@ abbr {
 }
 
 /* Шрифты */
-
 h1 {
     color: #479099;
     font-size: 30px;
@@ -94,7 +93,7 @@ h2 {
     font-weight: bold;
     font-size: 22px;
     min-height: 22px;
-    line-height: 22.5px;
+    line-height: 22px;
     margin-left: 10px;
 }
 
@@ -113,13 +112,12 @@ h3 {
 }
 
 .header-about, p, li {
-    font-size: 13.5px;
-    min-height: 13.5px;
-    line-height: 16.5px;
+    font-size: 13px;
+    min-height: 13px;
+    line-height: 16px;
 }
 
 /* Тело сайта */
-
 .container {
     max-width: 1024px; 
     background-color: #fff;
@@ -158,7 +156,7 @@ p {
 /* Опыт работы */
 .option-period, .option-list-header, dd {
     font-size: 12px;
-    line-height: 13.5px;
+    line-height: 13px;
     color: #384458;
     font-style: italic;
 }
@@ -183,7 +181,6 @@ p {
 }
 
 /* Интересы */
-
 .interests-list li {
     list-style: none;
     display: inline-block;
