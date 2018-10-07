@@ -13,6 +13,7 @@ body {
     width: 900px;
     position: relative;
     margin: 0 auto;
+    color: #333333;
 }
 
 /* Шапка */
@@ -21,8 +22,7 @@ body {
 .main-header {
     background-color: #fff;
     padding-bottom: 21px;
-    margin-bottom: 18px;
-    border-bottom-width: 2px;
+    border-bottom-width: 3px;
     border-bottom-style: solid;
     max-width: 100%;
     width: 100%;
@@ -30,10 +30,21 @@ body {
     height: auto;
 }
 
-/* Блок слева с описанием */
 .header-about {
+    padding: 20px 10px 0px 10px;
+    width: 100%;
+}
+
+/* Блок слева с описанием */
+.header-info {
     float: left;
     width: 33%;
+}
+
+abbr {
+    cursor: pointer;
+    text-decoration: none;
+    border-bottom:2px dashed #479099;
 }
 
 /* Блок по центру с картинкой */
@@ -67,24 +78,24 @@ body {
 
 h1 {
     color: #479099;
-    font-size: 34.5px;
-    min-height: 34.5px;
-    line-height: 36px!;
-    position: relative;
-    left: -1.5px;
+    font-size: 30px;
+    min-height: 30px;
+    line-height: 36px;
 }
 
 h2 {
+    color: #479099;
     font-weight: bold;
-    font-size: 21px;
-    min-height: 21px;
+    font-size: 22px;
+    min-height: 22px;
     line-height: 22.5px;
+    margin-left: 10px;
 }
 
 h3, .option-place, .header-text-option {
     font-size: 18px;
     min-height: 18px;
-    line-height: 19.5px;
+    line-height: 19px;
 }
 
 h2, h3 {
@@ -122,8 +133,20 @@ h3 {
     width: 45%;
 }
 
-article, section, ul, dl, p {
-    margin: 10px; !important;
+article  {
+    margin: 10px 10px 40px 10px;
+}
+
+section  {
+    margin: 10px 10px 20px 10px;
+}
+
+.achievements dl, .languages dl, ul {
+    margin: 10px 10px 15px 10px;
+}
+
+p {
+    margin: 10px 0;
 }
 
 /* Опыт работы */
@@ -137,7 +160,6 @@ article, section, ul, dl, p {
 
 .option-period, .option-list-header, dd {
     font-size: 12px;
-    min-height: 12px;
     line-height: 13.5px;
     color: #384458;
     font-style: italic;
@@ -145,7 +167,6 @@ article, section, ul, dl, p {
 
 .dd {
     font-size: 15px;
-    min-height: 15px;
     line-height: 16.5px;
 }
 
@@ -161,6 +182,10 @@ article, section, ul, dl, p {
 
 .skills-list {
     list-style: none;
+}
+
+.skill-item {
+    margin-bottom: 20px;
 }
 
 /* Проекты */
@@ -189,6 +214,6 @@ article, section, ul, dl, p {
     border-radius: 4.5px;
     padding: 4.5px 10.5px;
     border: 1.5px solid #b2b2b2;
-    margin-right: 7.5px;
+    margin-right: 2px;
     margin-bottom: 6px;
 }
