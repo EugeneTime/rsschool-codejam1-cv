@@ -1,0 +1,194 @@
+/* Глобальные */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    background-color: #303D46;
+    width: 900px;
+    position: relative;
+    margin: 0 auto;
+}
+
+/* Шапка */
+   
+/* Блок шапки */
+.main-header {
+    background-color: #fff;
+    padding-bottom: 21px;
+    margin-bottom: 18px;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    max-width: 100%;
+    width: 100%;
+    position: relative;
+    height: auto;
+}
+
+/* Блок слева с описанием */
+.header-about {
+    float: left;
+    width: 33%;
+}
+
+/* Блок по центру с картинкой */
+.header-logo {
+    display: inline-block; 
+    width: 33%; 
+    text-align: center;
+}
+
+.header-logo img {
+    border: 4.5px #384458 solid;
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    max-width: 150px;
+    max-height: 150px;
+}
+
+/* Блок справа, с контактами */
+.header-social {
+    float: right;
+    width: 25%;
+}
+
+.header-social li {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+/* Шрифты */
+
+h1 {
+    color: #479099;
+    font-size: 34.5px;
+    min-height: 34.5px;
+    line-height: 36px!;
+    position: relative;
+    left: -1.5px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 21px;
+    min-height: 21px;
+    line-height: 22.5px;
+}
+
+h3, .option-place, .header-text-option {
+    font-size: 18px;
+    min-height: 18px;
+    line-height: 19.5px;
+}
+
+h2, h3 {
+    text-transform: uppercase;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+.header-about, p, li {
+    font-size: 13.5px;
+    min-height: 13.5px;
+    line-height: 16.5px;
+}
+
+/* Тело сайта */
+
+.container {
+    max-width: 1024px; 
+    background-color: #fff;
+    width: 100%;
+    position: absolute;
+}
+
+.container-left {
+    float: left;
+    background-color: #fff;
+    width: 45%;
+}
+
+.container-right {
+    float: right;
+    background-color: #fff;
+    width: 45%;
+}
+
+article, section, ul, dl, p {
+    margin: 10px; !important;
+}
+
+/* Опыт работы */
+.experience {
+
+}
+
+.option {
+
+}
+
+.option-period, .option-list-header, dd {
+    font-size: 12px;
+    min-height: 12px;
+    line-height: 13.5px;
+    color: #384458;
+    font-style: italic;
+}
+
+.dd {
+    font-size: 15px;
+    min-height: 15px;
+    line-height: 16.5px;
+}
+
+/* Образование */
+.education {
+
+}
+
+/* Навыки работы */
+.skills {
+
+}
+
+.skills-list {
+    list-style: none;
+}
+
+/* Проекты */
+.projects {
+
+}
+
+/* Достижения */
+.achievements {
+
+}
+
+/* Языки */
+.languages {
+
+}
+
+/* Интересы */
+.interests {
+
+}
+
+.interests-list li {
+    list-style: none;
+    display: inline-block;
+    border-radius: 4.5px;
+    padding: 4.5px 10.5px;
+    border: 1.5px solid #b2b2b2;
+    margin-right: 7.5px;
+    margin-bottom: 6px;
+}
